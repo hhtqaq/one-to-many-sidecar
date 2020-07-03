@@ -1,0 +1,13 @@
+
+server:
+  port: 8027
+spring:
+  application:
+    name: cloud-sidecar
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.10.8.77:7001/eureka/
+  instance:
+    prefer-ip-address: true

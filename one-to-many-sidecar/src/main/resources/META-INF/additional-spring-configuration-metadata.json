@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "customize.sidecar.configUri",
+      "type": "java.lang.String",
+      "description": "配置中心uri."
+    },
+    {
+      "name": "customize.sidecar.receiveConfigUrl",
+      "type": "java.lang.String",
+      "description": "接收配置url."
+    }
+  ] }
